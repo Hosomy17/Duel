@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -63,6 +64,17 @@ namespace Framework.Managers
         public void LoadScene(string scene)
         {
             SceneManager.LoadScene(scene);
+        }
+
+        public IEnumerator LoadSceneAsync(string scene)
+        {
+            AsyncOperation asyncScene = SceneManager.LoadSceneAsync(scene, LoadSceneMode.Single);
+            asyncScene.allowSceneActivation = true;
+
+            while (!asyncScene.isDone)
+            {
+                yield return null;
+            }
         }
 
         public void CloseGame()

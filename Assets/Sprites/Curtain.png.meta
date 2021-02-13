@@ -1,0 +1,700 @@
+fileFormatVersion: 2
+guid: 83c480bacd729484783f4a7145e70021
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 750461502507610515
+    second: curtain-clipart-inauguration-14_0
+  - first:
+      213: -3026591060617589694
+    second: curtain-clipart-inauguration-14_1
+  - first:
+      213: -7943522230472099431
+    second: curtain-clipart-inauguration-14_2
+  - first:
+      213: -5718584712847323511
+    second: curtain-clipart-inauguration-14_3
+  - first:
+      213: 7633984155429522258
+    second: curtain-clipart-inauguration-14_4
+  - first:
+      213: -3797648069109530442
+    second: curtain-clipart-inauguration-14_5
+  - first:
+      213: 314292610936448209
+    second: curtain-clipart-inauguration-14_6
+  - first:
+      213: 5396710155925816818
+    second: curtain-clipart-inauguration-14_7
+  - first:
+      213: 9053753945897105597
+    second: curtain-clipart-inauguration-14_8
+  - first:
+      213: -6277212940087600501
+    second: curtain-clipart-inauguration-14_9
+  - first:
+      213: 9111037857403246069
+    second: curtain-clipart-inauguration-14_10
+  - first:
+      213: -7702251284496150441
+    second: curtain-clipart-inauguration-14_11
+  - first:
+      213: -8793945039526116645
+    second: curtain-clipart-inauguration-14_12
+  - first:
+      213: 2671055850176761048
+    second: curtain-clipart-inauguration-14_13
+  - first:
+      213: 6734314613373036782
+    second: curtain-clipart-inauguration-14_14
+  - first:
+      213: 7352545479376252698
+    second: curtain-clipart-inauguration-14_15
+  - first:
+      213: 7578583667417683310
+    second: curtain-clipart-inauguration-14_16
+  - first:
+      213: -2886679956698209001
+    second: curtain-clipart-inauguration-14_17
+  - first:
+      213: 949886997836179016
+    second: curtain-clipart-inauguration-14_18
+  - first:
+      213: -5040619343426118408
+    second: curtain-clipart-inauguration-14_19
+  - first:
+      213: -2513784271487270937
+    second: curtain-clipart-inauguration-14_20
+  - first:
+      213: -5594127329073424625
+    second: curtain-clipart-inauguration-14_21
+  - first:
+      213: 7411580997600887331
+    second: Curtain_0
+  - first:
+      213: -3908761264129980064
+    second: Curtain_1
+  - first:
+      213: -5362079963140234279
+    second: Curtain_2
+  - first:
+      213: -6692344214878591612
+    second: Curtain_3
+  - first:
+      213: 4249960277918997077
+    second: Curtain_4
+  - first:
+      213: 7142572102473580062
+    second: Curtain_5
+  - first:
+      213: -6919048191534042638
+    second: Curtain_6
+  - first:
+      213: 9089991637322232437
+    second: Curtain_7
+  - first:
+      213: -5081427389255315490
+    second: Curtain_8
+  - first:
+      213: -4342908173634786332
+    second: Curtain_9
+  - first:
+      213: 8338781219010273616
+    second: Curtain_10
+  - first:
+      213: 7948690085083875470
+    second: Curtain_11
+  - first:
+      213: 3574041277096975012
+    second: Curtain_12
+  - first:
+      213: 7421161973627260341
+    second: Curtain_13
+  - first:
+      213: 7599634540311204129
+    second: Curtain_14
+  - first:
+      213: -3543625349653505014
+    second: Curtain_15
+  - first:
+      213: -6938871698042655763
+    second: Curtain_16
+  - first:
+      213: -989918773610666177
+    second: Curtain_17
+  - first:
+      213: -6007189759134847038
+    second: Curtain_18
+  - first:
+      213: 8687457963403005695
+    second: Curtain_19
+  - first:
+      213: 1674171675765146588
+    second: Curtain_20
+  - first:
+      213: -2995309735595488525
+    second: Curtain_21
+  - first:
+      213: -8835452340956819563
+    second: Curtain_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Curtain_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 549
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322490a26a93bd660800000000000000
+      internalID: 7411580997600887331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 549
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069c9bbf65a41c9c0800000000000000
+      internalID: -3908761264129980064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 549
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d369cbdea01695b0800000000000000
+      internalID: -5362079963140234279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_3
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 549
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4856585e4640023a0800000000000000
+      internalID: -6692344214878591612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 440
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ad1e20b54eafa30800000000000000
+      internalID: 4249960277918997077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 440
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e7d86fb738f1360800000000000000
+      internalID: 7142572102473580062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 440
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1fdc7145a9aff90800000000000000
+      internalID: -6919048191534042638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_7
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 440
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572fcd9bb33262e70800000000000000
+      internalID: 9089991637322232437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 331
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf0f7746b42b79b0800000000000000
+      internalID: -5081427389255315490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 331
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebab5a9604eab3c0800000000000000
+      internalID: -4342908173634786332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_10
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 331
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0516ec2865d49b370800000000000000
+      internalID: 8338781219010273616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_11
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 331
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e880817b48b6f4e60800000000000000
+      internalID: 7948690085083875470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 222
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aad2fdfa9b899130800000000000000
+      internalID: 3574041277096975012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 222
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd80bafe734df660800000000000000
+      internalID: 7421161973627260341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 222
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121d90e8953577960800000000000000
+      internalID: 7599634540311204129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_15
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 222
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c55d8f48382dec0800000000000000
+      internalID: -3543625349653505014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debe72054fc24bf90800000000000000
+      internalID: -6938871698042655763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 113
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f372276ce1a1342f0800000000000000
+      internalID: -989918773610666177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 113
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf2764ddbc22aca0800000000000000
+      internalID: -6007189759134847038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_19
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 113
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe46c55dfc009870800000000000000
+      internalID: 8687457963403005695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 4
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3800bd44adb3710800000000000000
+      internalID: 1674171675765146588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 4
+        width: 173
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3facf815aa58e66d0800000000000000
+      internalID: -2995309735595488525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
