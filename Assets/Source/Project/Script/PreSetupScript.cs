@@ -1,10 +1,11 @@
-﻿using UnityEngine;
-using Framework.Managers;
+﻿using Framework.Managers;
+using Framework.Scripts;
 using Project.Manager;
+using UnityEngine;
 
 namespace Project.Scripts
 {
-    public class PreSetupScript : MonoBehaviour
+    public class PreSetupScript : ScriptGeneric
     {
 
         public string FirstScene;
