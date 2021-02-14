@@ -13,12 +13,35 @@ namespace Project.Scripts
 
         void Start()
         {
-            var i = GameManagerGeneric.Instance;
+            StartUpManagers();
+            SetDontDestroyGmaeObjects();
+            SetPreferenceSettings();
+            SetSetup();
 
-            foreach (GameObject obj in dontDestroy)
-                DontDestroyOnLoad(obj);
 
             LoadManager.Instance.StartLoadScreen(FirstScene);
+        }
+
+        private void StartUpManagers()
+        {
+            GameManagerGeneric.Instance.GetType();
+        }
+
+        private void SetDontDestroyGmaeObjects()
+        {
+            foreach (GameObject obj in dontDestroy)
+                DontDestroyOnLoad(obj);
+        }
+
+        private void SetPreferenceSettings()
+        {
+
+        }
+
+        private void SetSetup()
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 }
