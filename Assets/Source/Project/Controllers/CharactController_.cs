@@ -35,6 +35,7 @@ namespace Project.Controllers
                 var cp = tileMap.WorldToCell(position);
                 position = tileMap.CellToWorld(cp);
 
+                characterClass.currectTile = cp;
                 characterClass.MoveToPosition(position);
 
                 gameScript.UpdateMove(-1);
@@ -45,7 +46,11 @@ namespace Project.Controllers
         {
             var cp = tileMap.WorldToCell(position);
 
-            return tileMap.HasTile(cp) && gameScript.moves > 0;
+            var distanceX = Mathf.Abs(characterClass.currectTile.x - cp.x);
+            var distanceY = Mathf.Abs(characterClass.currectTile.y - cp.y);
+            var distance = Mathf.Max(distanceX, distanceY);
+
+            return tileMap.HasTile(cp) && distance == 1 && gameScript.CanMove(cp);
         }
     }
 }

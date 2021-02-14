@@ -3,6 +3,7 @@ using Framework.Scripts;
 using Framework.Tools;
 using Project.Classes;
 using Project.Controllers;
+using UnityEngine;
 
 namespace Project.Scripts
 {
@@ -44,6 +45,11 @@ namespace Project.Scripts
 
             if (moves <= 0)
                 SetNewTurn();
+        }
+
+        public bool CanMove(Vector3Int cellPosition)
+        {
+            return characterClass1.currectTile != cellPosition && characterClass2.currectTile != cellPosition && moves > 0;
         }
 
         private void SetNewTurn()
