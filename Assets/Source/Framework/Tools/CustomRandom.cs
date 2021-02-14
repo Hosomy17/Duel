@@ -58,13 +58,13 @@ namespace Framework.Tools
             if (totalFactor == 0)
                 return null;
 
-            var n = Random.Range(1, totalFactor);
+            var n = Random.Range(0, totalFactor);
             var index = indexes.GetEnumerator();
             do
             {
                 index.MoveNext();
                 n -= index.Current.Value;
-            } while (n > 0);
+            } while (n >= 0);
 
             return index.Current.Key;
         }
