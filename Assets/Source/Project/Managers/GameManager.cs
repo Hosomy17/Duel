@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Framework.Managers;
+using UnityEngine;
 
 namespace Project.Manager
 {
@@ -17,6 +18,11 @@ namespace Project.Manager
             {
                 Instance = this;
             }
+        }
+
+        public void ExitGame()
+        {
+            GameManagerGeneric.Instance.CloseGame();
         }
     }
 }
