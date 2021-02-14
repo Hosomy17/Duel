@@ -28,5 +28,10 @@ namespace Project.Classes
                 GetComponent<SpriteRenderer>().sprite = characterScriptable.sprite;
             }
         }
+
+        public void MoveToPosition(Vector3 position)
+        {
+            transform.position = position;
+        }
     }
 }

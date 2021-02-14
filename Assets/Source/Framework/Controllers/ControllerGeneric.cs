@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using Framework.Classes;
+using System.Collections.Generic;
 
 namespace Framework.Controllers
 {
@@ -7,6 +7,6 @@ namespace Framework.Controllers
     {
         public abstract void NewInputs(Dictionary<string, object> ipt);
 
-        public abstract void TrackObject(GameObject obj);
+        public abstract void TrackObject(ClassGeneric obj);
     }
 }
