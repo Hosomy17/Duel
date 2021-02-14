@@ -29,6 +29,10 @@ namespace Project.Scripts
         void Start()
         {
             tileMapGenerator.Generate();
+            var cp = new Vector3Int(tileMapGenerator.tileMapHeight - 1, tileMapGenerator.tileMapHeight - 1, 0);
+
+            characterClass2.currectTile = cp;
+            characterClass2.MoveToPosition(tileMapGenerator.tileMap.CellToWorld(cp));
 
             characterController = new CharactController_();
             characterController.gameScript = this;
