@@ -40,8 +40,6 @@ namespace Project.Scripts
 
         private void SetSetup()
         {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
         }
     }
 }
