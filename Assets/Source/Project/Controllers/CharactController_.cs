@@ -1,16 +1,18 @@
 ﻿using Framework.Classes;
 using Framework.Controllers;
 using Project.Classes;
+using Project.Scripts;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 namespace Project.Controllers
 {
-    public class CharacterController : ControllerGeneric
+    public class CharactController_ : ControllerGeneric
     {
         private CharacterClass characterClass;
 
+        public GameScript gameScript;
         public Tilemap tileMap;
 
         public override void NewInputs(Dictionary<string, object> ipt)
@@ -34,13 +36,16 @@ namespace Project.Controllers
                 position = tileMap.CellToWorld(cp);
 
                 characterClass.MoveToPosition(position);
+
+                gameScript.UpdateMove(-1);
             }
         }
 
         private bool CanMove(Vector3 position)
         {
             var cp = tileMap.WorldToCell(position);
-            return tileMap.HasTile(cp);
+
+            return tileMap.HasTile(cp) && gameScript.moves > 0;
         }
     }
 }

@@ -8,25 +8,57 @@ namespace Project.Scripts
 {
     public class GameScript : ScriptGeneric
     {
+        public Follower followerCamera;
         public TileMapGenerator tileMapGenerator;
 
-        public CharacterClass characterClass;
+        public CharacterClass characterClass1;
+        public CharacterClass characterClass2;
+
+        public int moves;
+
+        private bool isTurncharacter1;
+        private CharactController_ characterController;
+        
+        void Awake()
+        {
+            isTurncharacter1 = false;
+            moves = 0;
+        }
 
         void Start()
         {
             tileMapGenerator.Generate();
 
-            StartUpGamepad();
+            characterController = new CharactController_();
+            characterController.gameScript = this;
+            characterController.tileMap = tileMapGenerator.tileMap;
+            
+            GetComponent<GamepadGeneric>().controller = characterController;
+
+            SetNewTurn();
         }
 
-        private void StartUpGamepad()
+        public void UpdateMove(int value)
         {
-            var controller = new CharacterController();
-            controller.TrackObject(characterClass);
+            moves += value;
 
-            controller.tileMap = tileMapGenerator.tileMap;
+            if (moves <= 0)
+                SetNewTurn();
+        }
 
-            GetComponent<GamepadGeneric>().controller = controller;
+        private void SetNewTurn()
+        {
+            CharacterClass characterClass;
+            isTurncharacter1 = !isTurncharacter1;
+            moves = 3;
+
+            if (isTurncharacter1)
+                characterClass = characterClass1;
+            else
+                characterClass = characterClass2;
+
+            characterController.TrackObject(characterClass);
+            followerCamera.target = characterClass.gameObject;
         }
     }    
 }
