@@ -13,11 +13,6 @@ namespace Project.Scripts
             DisableNavegation();
             LoadManager.Instance.StartLoadScreen("GameScene");
         }
-        public void OpenSettings()
-        {
-            DisableNavegation();
-            LoadManager.Instance.StartLoadScreen("SettingsScene");
-        }
         public void ExitGame()
         {
             DisableNavegation();

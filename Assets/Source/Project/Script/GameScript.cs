@@ -40,6 +40,7 @@ namespace Project.Scripts
             
             GetComponent<GamepadGeneric>().controller = characterController;
 
+
             SetNewTurn();
         }
 
